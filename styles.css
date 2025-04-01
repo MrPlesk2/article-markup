@@ -1,7 +1,10 @@
-
+.article {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
 h1, h2, p, img {
-    width: 700px;
-    margin-left: 360px;
+
     color: rgba(0, 0, 0, 0.84);
 }
 
@@ -26,12 +29,11 @@ h2 {
 img {
     margin-top: 43px;
     margin-bottom: 27px;
-    margin-left: 362px;
+    align-self: center;
 }
 
 p {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    margin-left: 362px;
     margin-top: 10px;
     margin-bottom: 0;
     line-height: 33px;
