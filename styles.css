@@ -1,4 +1,4 @@
-/* Тут пиши основные стили */
+
 h1, h2, p, img {
     width: 700px;
     margin-left: 360px;
@@ -47,6 +47,45 @@ span {
     margin-bottom: 95px;
 }
 
+.logo {
+    margin-top: 10px;
+    margin-left: 38px;
+    width: 97px;
+    height: 64px;
+}
+
+.list {
+    background-color: #f4f4f4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1.5px solid #AAAAAA;
+    border-bottom: 1.5px solid #AAAAAA;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 38px;
+    
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+    color: #333333; 
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    line-height: 36px;
+    font-size: 24px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+li a.active {
+    color: red;
+    text-decoration: none;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
