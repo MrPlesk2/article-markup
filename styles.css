@@ -1,4 +1,51 @@
 /* Тут пиши основные стили */
+h1, h2, p, img {
+    width: 700px;
+    margin-left: 360px;
+    color: rgba(0, 0, 0, 0.84);
+}
+
+h1 {
+    font-size: 42px;
+
+    text-align: left;
+    line-height: 44px;
+}
+
+h1, h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 55px;
+    font-size: 34px;
+    line-height: 39px;
+}
+
+img {
+    margin-top: 43px;
+    margin-bottom: 27px;
+    margin-left: 362px;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    margin-left: 362px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 33px;
+    font-size: 21px;
+}
+
+span {
+    font-family: "Courier New", monospace;
+    background-color: #eaeaea;
+}
+
+.footer {
+    margin-bottom: 95px;
+}
 
 
 @media (max-width: 800px) {
@@ -6,3 +53,4 @@
     Стили применятся только когда страничка будет ≤800px шириной
  */
 }
+
