@@ -87,9 +87,49 @@ li a.active {
     text-decoration: none;
 }
 
-@media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+@media (max-width: 1000px) {
+    .logo {
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 101px;
+        height: 64px;
+    }
+    li {
+        display: block;
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    h1, h2, p, img {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: rgba(0, 0, 0, 0.84);
+    }
+
+    h1 {
+        margin-top: 20px;
+        margin-bottom: 14px;
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    h2 {
+        margin-top: 25px;
+        font-size: 22px;
+        line-height: 39px;
+    }
+
+    p {
+        margin-top: 6px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    img {
+        margin: 25px 20px 19px;
+        width: 100%;
+    }
 }
 
